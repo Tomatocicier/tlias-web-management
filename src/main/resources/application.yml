@@ -1,0 +1,28 @@
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    accessKeyId: LTAI5tRCk2RTMH29yaUT63pp
+    accessKeySecret: cvrtmsp0qWX1ZvICQ7z12sIt90mySJ
+    bucketName: web-tlias-image
+mybatis:
+  #日志输出到控制台
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+spring:
+  #数据库连接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.217.55:3306/tlias?characterEncoding=utf-8
+    username: root
+    password: MySql123!
+  #控制文件上传大小的设置
+  servlet:
+      multipart:
+        max-file-size: 10MB
+        max-request-size: 100MB
+
+
+
+
+
