@@ -1,8 +1,8 @@
 aliyun:
   oss:
-    endpoint: https://oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5tRCk2RTMH29yaUT63pp
-    accessKeySecret: cvrtmsp0qWX1ZvICQ7z12sIt90mySJ
+    endpoint: 
+    accessKeyId: 
+    accessKeySecret:
     bucketName: web-tlias-image
 mybatis:
   #日志输出到控制台
